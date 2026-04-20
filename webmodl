@@ -11,48 +11,195 @@
 </head>
 
 <body>
-    <div class="a1">
-        <div></div>
-        <div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
+    <div class="main-layout">
+        <div class="hero-banner">
+            <div class="title-area">
+                <h1>江西师范大学</h1>
+                <p>人工智能学院•不仅仅是编程</p>
+            </div>
+            <div class="badge-area">
+                <i class="fas fa-chalkboard-user"></i> 静思笃行、持中秉正<br>诚实做人、踏实做事
+            </div>
         </div>
-        <div></div>
-        <div>
-            <div></div>
-            <div>
+    
+        <!-- 导航栏 -->
+        <ul class="navbar">
+            <li class="nav-item"><a href="#" class="nav-link active">首页</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">中心概况</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">教学服务</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">服务指南</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">党群工作</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">相关下载</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">主任信箱</a></li>
+        </ul>
+    
+        <!-- 主内容区域 两列布局 -->
+        <div class="grid-2" style="margin-top: 32px; gap: 30px;">
+            
+            <div class="flex-column" style="gap: 32px;">
+                
                 <div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
+                    <div class="news-title">工作动态</div>
+                    
+                    <div class="featured-news">
+                        <h2><!-- 特色新闻标题 --></h2>
+                        <div class="meta"><!-- 发布日期 --></div>
+                        <p><!-- 新闻摘要 --></p>
+                    </div>
+                    <!-- 新闻列表 -->
+                    <div class="news-list">
+                        <div class="news-item">
+                            <a href="#"><!-- 新闻标题链接：无文本 --></a>
+                            <span class="news-date"><!-- 日期：无文本 --></span>
+                        </div>
+                        <div class="news-item">
+                            <a href="#"><!-- 新闻标题链接：无文本 --></a>
+                            <span class="news-date"><!-- 日期：无文本 --></span>
+                        </div>
+                        <div class="news-item">
+                            <a href="#"><!-- 新闻标题链接：无文本 --></a>
+                            <span class="news-date"><!-- 日期：无文本 --></span>
+                        </div>
+                        <div class="news-item">
+                            <a href="#"><!-- 新闻标题链接：无文本 --></a>
+                            <span class="news-date"><!-- 日期：无文本 --></span>
+                        </div>
+                        <div class="news-item">
+                            <a href="#"><!-- 新闻标题链接：无文本 --></a>
+                            <span class="news-date"><!-- 日期：无文本 --></span>
+                        </div>
+                    </div>
                 </div>
+    
+                <!-- 通知公告区块 -->
                 <div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
+                    <div class="news-title">通知公告</div>
+                    <div class="news-list">
+                        <div class="news-item">
+                            <a href="#"><!-- 公告标题 - 无文本 --></a>
+                            <span class="news-date"><!-- 日期无文本 --></span>
+                        </div>
+                        <div class="news-item">
+                            <a href="#"><!-- 公告标题 - 无文本 --></a>
+                            <span class="news-date"><!-- 日期无文本 --></span>
+                        </div>
+                        <div class="news-item">
+                            <a href="#"><!-- 公告标题 - 无文本 --></a>
+                            <span class="news-date"><!-- 日期无文本 --></span>
+                        </div>
+                        <div class="news-item">
+                            <a href="#"><!-- 公告标题 - 无文本 --></a>
+                            <span class="news-date"><!-- 日期无文本 --></span>
+                        </div>
+                        <div class="news-item">
+                            <a href="#"><!-- 公告标题 - 无文本 --></a>
+                            <span class="news-date"><!-- 日期无文本 --></span>
+                        </div>
+                    </div>
                 </div>
-                <div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
+            </div>
+    
+            <!-- 右侧区域：快捷通道 + 教学资源下载-->
+            <div class="right-sidebar">
+                <!-- 快捷通道  -->
+                <div class="sidebar-card">
+                    <h3>快捷通道</h3>
+                    <div class="grid-2" style="gap: 16px; margin-top: 8px;">
+                        <div class="quick-card">
+                            <i class="fas fa-laptop-code"></i>
+                            <h4>网络教学技术</h4>
+                            <p><!-- 辅助说明文字留空 --></p>
+                        </div>
+                        <div class="quick-card">
+                            <i class="fas fa-video"></i>
+                            <h4>视频资源制作</h4>
+                            <p></p>
+                        </div>
+                        <div class="quick-card">
+                            <i class="fas fa-microphone-alt"></i>
+                            <h4>多媒体技术支持</h4>
+                            <p></p>
+                        </div>
+                        <div class="quick-card">
+                            <i class="fas fa-chalkboard"></i>
+                            <h4>智慧教学体验</h4>
+                            <p></p>
+                        </div>
+                        <div class="quick-card">
+                            <i class="fas fa-door-open"></i>
+                            <h4>学习空间改造</h4>
+                            <p></p>
+                        </div>
+                        <div class="quick-card">
+                            <i class="fas fa-desktop"></i>
+                            <h4>多媒体设备与会支持</h4>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- 教学资源下载 表格模块  -->
+                <div class="sidebar-card">
+                    <h3>教学资源下载</h3>
+                    <table class="download-table">
+                        <thead>
+                            <tr><th>资源名称</th><th>类型</th><th>更新日期</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr><td><!-- 无内容 --></td><td><!-- 无内容 --></td><td><!-- 无内容 --></td></tr>
+                            <tr><td><!-- 无内容 --></td><td><!-- 无内容 --></td><td><!-- 无内容 --></td></tr>
+                            <tr><td><!-- 无内容 --></td><td><!-- 无内容 --></td><td><!-- 无内容 --></td></tr>
+                            <tr><td><!-- 无内容 --></td><td><!-- 无内容 --></td><td><!-- 无内容 --></td></tr>
+                        </tbody>
+                    </table>
+                </div>
+                
+                <div class="sidebar-card">
+                    <h3>使用说明</h3>
+                    <div style="padding: 8px 0;">
+                        <div class="news-item" style="border-bottom: none; justify-content: flex-start;">
+                            <i class="fas fa-chevron-right" style="color:#0d3b66; font-size:12px; margin-right:10px;"></i>
+                            <span><!-- 说明条目--></span>
+                        </div>
+                        <div class="news-item" style="border-bottom: none; justify-content: flex-start;">
+                            <i class="fas fa-chevron-right" style="color:#0d3b66; font-size:12px; margin-right:10px;"></i>
+                            <span></span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div>
-            <div></div> 
-            <div></div>
+        
+        <!-- 下方教室资源平台/表格下载等扩展区域 -->
+        <div style="margin-top: 40px;">
+            <div class="grid-2" style="gap: 30px;">
+                <div class="sidebar-card">
+                    <h3>教室资源平台</h3>
+                    <div class="flex-row" style="justify-content: space-between; gap: 12px;">
+                        <span class="btn" style="background:#eef2f7; color:#0d3b66; border:1px solid #cbd5e1;"><i class="fas fa-calendar-alt"></i> <!-- 无文字 --></span>
+                        <span class="btn" style="background:#eef2f7; color:#0d3b66; border:1px solid #cbd5e1;"><i class="fas fa-chart-line"></i> <!-- 无文字 --></span>
+                    </div>
+                    <div class="news-item" style="border-bottom: none; padding: 10px 0;"><span><!-- 教室借用信息 --></span></div>
+                </div>
+                <div class="sidebar-card">
+                    <h3>PPT模版下载</h3>
+                    <table class="download-table">
+                        <tbody>
+                            <tr><td><!-- 模版名称--></td><td><!-- 大小 --></td></tr>
+                            <tr><td><!-- 模版名称 --></td><td><!-- 大小 --></td></tr>
+                            <tr><td><!-- 模版名称 --></td><td><!-- 大小 --></td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
         </div>
-        <div></div>
-        <div></div>
-        <div></div>
-
-
-
-
+        
+        <!-- 底部简单版权线 -->
+        <div style="margin-top: 48px; border-top: 1px solid #dce5ef; padding: 20px 0 10px; text-align: center; font-size: 13px; color: #8ba0b5;">
+           
+        </div>
     </div>
+    
 </body>
 
 </html>
