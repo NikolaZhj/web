@@ -273,4 +273,68 @@ body {
     margin-bottom: 16px;
     padding-bottom: 10px;
     border-bottom: 2px solid #e9eef4;
-}
+} 
+        .empty-placeholder {
+            min-height: 1.2em;
+        }
+        .news-item a:empty::before,
+        .news-date:empty::before {
+            content: "\00A0"; 
+            display: inline-block;
+        }
+        .download-table td:empty::before,
+        .download-table td a:empty:before {
+            content: "\00A0";
+        }
+        /* 确保特色新闻区域即使无文字也有基本高度 */
+        .featured-news p:empty,
+        .featured-news .meta:empty,
+        .featured-news h2:empty {
+            min-height: 1.5em;
+        }
+        /* 全局容器 */
+        .main-layout {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        /* 头部banner区域（轻量模仿原图风格，只含校名与中心名称，不填充内容文字以外的元素） */
+        .hero-banner {
+            background: linear-gradient(135deg, #f0f4f9 0%, #ffffff 100%);
+            padding: 20px 30px;
+            margin-bottom: 20px;
+            border-radius: 20px;
+            border-left: 8px solid #0d3b66;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        .title-area h1 {
+            font-size: 28px;
+            color: #0d3b66;
+            letter-spacing: 1px;
+        }
+        .title-area p {
+            color: #4a627a;
+            font-size: 16px;
+        }
+        .badge-area {
+            font-size: 14px;
+            background: #eef2f7;
+            padding: 6px 14px;
+            border-radius: 40px;
+            color: #0d3b66;
+        }
+        @media (max-width: 640px) {
+            .hero-banner {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        }
+        /* 右栏侧边快捷区域调整 */
+        .right-sidebar {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+        }
